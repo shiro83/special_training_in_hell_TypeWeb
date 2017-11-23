@@ -66,7 +66,7 @@ $ git checkout develop
 $ git branch
 $ git pull origin develop
 ```
-  + `git checkout`はブランチの切り替え
+      + `git checkout`はブランチの切り替え
   + `git branch`で今いるブランチの確認
   + `git pull`で`develop`ブランチから最新を取得する
   + ちなみに`origin`はURLの省略文字(本当はgit@〜)、`develop`は取得ブランチ名を指す
@@ -77,7 +77,7 @@ $ git pull origin develop
   $ git checkout -b future/lesson0
   $ git branch
   ```
-    + `git checkout`に`-b`オプションをつけると、移動とセットでブランチの作成も出来る
+     + git checkoutに-bオプションをつけると、移動とセットでブランチの作成も出来る
 
 ### atomを使ってファイルを編集する
 + atomを起動する
