@@ -5,7 +5,8 @@
 
 ## 事前準備
 + GitHubアカウントの取得
-  - まずはアカウントを取得する https://github.com/
+  + まずはアカウントを取得する https://github.com/
+
 
 
 + gitのインストール
