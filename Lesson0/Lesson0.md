@@ -108,9 +108,19 @@ $ git push origin future/lesson0
 ### GitHub上で`pull request`
 GitHub上でdevelopブランチにマージする依頼をする。
 + GitHubを開く[https://github.com/shiro83/special_training_in_hell_TypeWeb](https://github.com/shiro83/special_training_in_hell_TypeWeb)
-+
++ 「Compare & pull request」を押下する
+![](img/img02.png)
 
++ 適当に入力して、「Create pull request」を押下
+![](img/img03.png)
 
++ 誰かのレビューが完了したら、「Merge pullrequest」を押下
+![](img/img04.png)
+
++ delete branchしちゃってOK
 
 ## もう少し詳細までやりたい場合はこちら  
 [LearnGitBranching](http://k.swd.cc/learnGitBranching-ja/)
+
+
+# ！もしかしたら、ローカルブランチでdevelopブランチにマージしてdevelopブランチをpushするのが正しいかも？（だれか教えて）
