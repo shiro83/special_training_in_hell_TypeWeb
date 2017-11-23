@@ -61,17 +61,16 @@ $ cd special_training_in_hell_TypeWeb
 
 
 + developブランチに切り替えて最新化する。
+  + `git checkout`はブランチの切り替え  
+  + `git branch`で今いるブランチの確認　  
+  + `git pull`で`develop`ブランチから最新を取得する　  
+  ちなみに`origin`はURLの省略文字(本当はgit@〜)、`develop`は取得ブランチ名を指す  
+  
 ```
 $ git checkout develop
 $ git branch
 $ git pull origin develop
 ```
-
-・`git checkout`はブランチの切り替え  
-・`git branch`で今いるブランチの確認　  
-・`git pull`で`develop`ブランチから最新を取得する　  
-　　　ちなみに`origin`はURLの省略文字(本当はgit@〜)、`develop`は取得ブランチ名を指す  
-
 
   + futureブランチを切る、ここでのブランチ名はfuture/lesson0としてみる
   ```
@@ -90,19 +89,16 @@ $ git pull origin develop
 
 ### GitHubに`push`！
 + まずはローカルにコミットする
+  + `git add .`でステージングに変更があったファイルを全て追加(`.`をファイル名にすればそいつだけになる)  
+  + `git commit -m`でステージングの変更をコミット  
+  + `git status`でgitの状態を確認  
+  + `git diff HEAD^`でcommitする変更点を確認、`q`で終了する  
 ```
 $ git add .
 $ git commit -m '日時を追加'
 $ git status
 $ git diff HEAD^
 ```
-
-  ・`git add .`でステージングに変更があったファイルを全て追加(`.`をファイル名にすればそいつだけになる)  
-  ・`git commit -m`でステージングの変更をコミット  
-  ・`git status`でgitの状態を確認  
-  ・`git diff HEAD^`でcommitする変更点を確認、`q`で終了する  
-
-
 
 + いよいよGitHubにpush!
 ```
