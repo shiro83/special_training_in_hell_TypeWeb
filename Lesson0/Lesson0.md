@@ -116,8 +116,7 @@ GitHub上でdevelopブランチにマージする依頼をする。
 + 適当に入力して、「Create pull request」を押下
 ![](img/img03.png)
 
-+ 誰かのレビューが完了したら、「Merge pullrequest」を押下
-![](img/img04.png)
++ こちらでレビューして問題があれがコメントを残し、問題なければマージします。（通常５営業日いただきます）
 
 + delete branchしちゃってOK
 
