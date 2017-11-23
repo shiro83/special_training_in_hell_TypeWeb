@@ -72,13 +72,14 @@ $ git branch
 $ git pull origin develop
 ```
 
-  + futureブランチを切る、ここでのブランチ名はfuture/lesson0としてみる
++ futureブランチを切る、ここでのブランチ名はfuture/lesson0としてみる
+  + git checkoutに-bオプションをつけると、移動とセットでブランチの作成も出来る　　
   ```
   $ git checkout -b future/lesson0
   $ git branch
   ```
   
-  ・git checkoutに-bオプションをつけると、移動とセットでブランチの作成も出来る　　
+
 
 
 ### atomを使ってファイルを編集する
