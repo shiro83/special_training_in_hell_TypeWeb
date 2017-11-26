@@ -1,13 +1,11 @@
-
-# Lesson0 Gitを使ってGitHubにpushしよう！
-
+# Lesson0-Gitを使ってGitHubにpushしよう！-
 Lessonでは成果物をGitHubにpushして貰います。  
 さっそくGitを使ってGitHubへpushしてみましょう！  
 
 ## Gitって？
 プログラムソースなどの変更履歴を管理する分散型のバージョン管理システムのことです。（コマンドラインのアプリケーションと言って差し支えない）
 
-## GitHubって？gitと違うものなの？
+## GitHubって？Gitと違うものなの？
 GitHubとは、Gitの仕組みを利用して、世界中の人々が自分プログラムコードなどを保存、公開することができるようにしたWebサービスです。
 
 ## Gitのコマンドって難しそうで何やってるかわからない。。。。
@@ -65,7 +63,7 @@ $ cd special_training_in_hell_TypeWeb
   + `git branch`で今いるブランチの確認　  
   + `git pull`で`develop`ブランチから最新を取得する　  
   ちなみに`origin`はURLの省略文字(本当はgit@〜)、`develop`は取得ブランチ名を指す  
-  
+
 ```
 $ git checkout develop
 $ git branch
@@ -78,7 +76,7 @@ $ git pull origin develop
   $ git checkout -b future/lesson0
   $ git branch
   ```
-  
+
 
 
 
