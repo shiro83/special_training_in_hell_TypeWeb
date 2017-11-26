@@ -1,7 +1,8 @@
 # グラニュー糖より甘いWeb開発トレーニング
 
 胸焼けするくらい甘いWeb開発トレーニングです。  
-さぁ、事前準備を済ませてLet's Try!
+さぁ、事前準備を済ませてLet's Try!  
+(Macがおすすめ)
 
 ## 事前準備
 ### GitHubアカウントの取得
@@ -19,5 +20,8 @@
 
 
 ## Lesson
-+ [Lesson0-GitHubにpush](Lesson0/Lesson0.md)　　<img src="ComImg/newopen.jpg" width="85px">
-+ Lesson1
++ [Lesson0-GitHubにpush-](Lesson0/Lesson0.md)　　<img src="ComImg/newopen.jpg" width="85px">
+
++ [Lesson1-Web開発をする前のお勉強-](Lesson1/Lesson1.md)　　<img src="ComImg/newopen.jpg" width="85px">
+
++ Lesson2
